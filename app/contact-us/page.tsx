@@ -1,54 +1,94 @@
-import { url } from 'inspector'
-import { Linkedin, MapPin } from 'lucide-react'
-import React from 'react'
+import { Linkedin, MapPin } from 'lucide-react';
+import React from 'react';
 
-const page = () => {
+const ContactPage = () => {
   return (
     <div>
+      {/* Banner Section */}
       <div
         style={{
           backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Hero-Image-Engineering-Services%3Arad-3x2?ts=1748570118663&fit=constrain&dpr=off")`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          color: 'white', // so text shows well over the gradient
-          paddingLeft: '4rem',
         }}
-        className="py-[6rem] mb-6"
+        className="text-white py-[6rem] px-5 md:px-[4rem] mb-6"
       >
-        <p className='text-[30px] font-[600]'>Contact Us</p>
+        <p className="text-[28px] md:text-[36px] font-semibold">Contact Us</p>
       </div>
-      <div className='flex gap-5 max-w-[900px] m-auto'>
-        <div className='flex-1 text-center items-center flex flex-col space-y-2'>
-          <MapPin className='text-[#404df7]' />
-          <p className='text-[#404df7] text-[16px] font-[600]'>Abjontech Solutions  Limited</p>
-          <p className='text-[14px] font-[400]'>Plot 49, MCC Road, Ikenegbu Layout, Owerri, Imo State, Nigeria</p>
+
+      {/* Contact Section */}
+      <div className="flex flex-col md:flex-row gap-8 max-w-[900px] mx-auto px-5 pb-10">
+        {/* Contact Info */}
+        <div className="flex-1 text-center flex flex-col items-center space-y-3">
+          <MapPin className="text-[#404df7]" />
+          <p className="text-[#404df7] text-[16px] font-semibold">Abjontech Solutions Limited</p>
+          <p className="text-[14px] font-normal">
+            Plot 49, MCC Road, Ikenegbu Layout, Owerri, Imo State, Nigeria
+          </p>
           <div>
-            <a className='w-[40px] rounded-[50%] bg-blue-500 justify-center items-center flex text-white h-[40px]' href="http://">
-              <Linkedin className='w-[18px]' />
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-[40px] h-[40px] rounded-full bg-blue-500 flex items-center justify-center text-white hover:bg-blue-600 transition"
+            >
+              <Linkedin className="w-[18px]" />
             </a>
           </div>
         </div>
-        <div className='flex-1 space-y-4'>
+
+        {/* Contact Form */}
+        <div className="flex-1 space-y-5">
           <div>
-            <label className='text-[14px] font-[400]' htmlFor="">Full Name</label>
-            <input className='w-full px-4 outline-none border-[#ececec] border-[1px] py-3' type="text" />
+            <label htmlFor="name" className="text-[14px] font-medium block mb-1">
+              Full Name
+            </label>
+            <input
+              id="name"
+              type="text"
+              className="w-full px-4 py-3 border border-[#ececec] outline-none"
+              placeholder="Enter your name"
+            />
           </div>
+
           <div>
-            <label className='text-[14px] font-[400]' htmlFor="">Email</label>
-            <input className='w-full px-4 outline-none border-[#ececec] border-[1px] py-3' type="text" />
+            <label htmlFor="email" className="text-[14px] font-medium block mb-1">
+              Email
+            </label>
+            <input
+              id="email"
+              type="email"
+              className="w-full px-4 py-3 border border-[#ececec] outline-none"
+              placeholder="Enter your email"
+            />
           </div>
+
           <div>
-            <label className='text-[14px] font-[400]' htmlFor="">Subject</label>
-            <input className='w-full px-4 outline-none border-[#ececec] border-[1px] py-3' type="text" />
+            <label htmlFor="subject" className="text-[14px] font-medium block mb-1">
+              Subject
+            </label>
+            <input
+              id="subject"
+              type="text"
+              className="w-full px-4 py-3 border border-[#ececec] outline-none"
+              placeholder="Subject of your message"
+            />
           </div>
+
           <div>
-            <label className='text-[14px] font-[400]' htmlFor="">Message</label>
-            <textarea className='w-full p-4 outline-none resize-none border-[#ececec] h-[200px] border-[1px]' />
+            <label htmlFor="message" className="text-[14px] font-medium block mb-1">
+              Message
+            </label>
+            <textarea
+              id="message"
+              className="w-full p-4 h-[200px] border border-[#ececec] outline-none resize-none"
+              placeholder="Write your message here"
+            />
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default ContactPage;
