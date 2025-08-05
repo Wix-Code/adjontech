@@ -11,7 +11,7 @@ const NavBar = () => {
           <img className='w-[50px]' src="/pic/logo.jpg" alt="" />
           <p className='font-[600] text-[#222222] text-[24px]'>AbjonTech</p>
         </div>
-        <div className='flex items-center gap-5'>
+        <div className='md:flex sm:hidden items-center gap-5'>
           {
             links.map((link) => {
               return (

@@ -4,7 +4,7 @@ import React from 'react'
 const Partner = () => {
   return (
     <div className='py-2 bg-[#fcfcfc8f]'>
-      <div className='max-w-[1000px] m-auto flex items-center gap-5'>
+      <div className='max-w-[1000px] m-auto sm:flex-col md:flex items-center gap-5'>
         <div className='flex-1'>
           <p className='text-[20px] text-[#4e4e4e] font-[600]'>TechSolutions collaborates with hardware and software leaders to provide enterprise-class solutions for small and mid-sized businesses</p>
           <div className='grid grid-cols-3'>
