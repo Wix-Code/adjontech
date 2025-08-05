@@ -11,8 +11,8 @@ const NavBar = () => {
       <div className="flex justify-between items-center h-[90px] max-w-[1000px] mx-auto px-4">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <img className="w-[50px]" src="/pic/logo.jpg" alt="AbjonTech Logo" />
-          <p className="font-semibold text-[#222222] text-[22px]">AbjonTech</p>
+          <Link href="/"><img className="w-[50px]" src="/pic/logo.jpg" alt="AbjonTech Logo" /></Link>
+          <Link href="/"><p className="font-semibold text-[#222222] text-[22px]">AbjonTech</p></Link>
         </div>
 
         {/* Links */}

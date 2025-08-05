@@ -47,3 +47,41 @@ export const links = [
     href: "/contact-us"
   },
 ]
+
+export const services = [
+  {
+    id: 1,
+    name: "educational software",
+    img: "https://edusuitepk.b-cdn.net/wp-content/uploads/2022/01/What-is-Importance-of-Educational-Software.jpg"
+  },
+  {
+    id: 2,
+    name: " network and data protection",
+    img: "https://www.easy2patch.com/assets/images/blog/what-are-the-various-types-of-network-security.png"
+  },
+  {
+    id: 3,
+    name: "Data Recovery",
+    img: "https://www.handyrecovery.com/wp-content/uploads/2021/01/best-data-recovery-software-950x500.jpg"
+  },
+  {
+    id: 4,
+    name: "engineering solutions",
+    img: "https://drmcnatty.com/wp-content/uploads/2015/04/Engineering-Solutions.jpg"
+  },
+  {
+    id: 5,
+    name: "Enterprise Resource Planning",
+    img: "https://www.consultancy.uk/illustrations/news/spotlight/2024-05-27-122130224-Key_considerations_when_selecting_an_ERP_package_spot.jpg"
+  },
+  {
+    id: 6,
+    name: "Data Recovery",
+    img: "https://www.handyrecovery.com/wp-content/uploads/2021/01/best-data-recovery-software-950x500.jpg"
+  },
+  {
+    id: 7,
+    name: "Data Recovery",
+    img: "https://www.handyrecovery.com/wp-content/uploads/2021/01/best-data-recovery-software-950x500.jpg"
+  }
+]

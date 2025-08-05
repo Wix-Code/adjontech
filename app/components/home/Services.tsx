@@ -1,0 +1,30 @@
+import { services } from '@/app/dummyData'
+import React from 'react'
+
+
+const Services = () => {
+  return (
+    <div className='max-w-[1000px] my-5 space-y-5 m-auto'>
+      <div className='space-y-2 flex px-5 md:px-0 flex-col items-center justify-center text-center'>
+        <p className='text-[24px] text-center py-2 border-y-[1px] border-[#ececec] w-fit font-[600]'>Our Services</p>
+        <p className='text-[18px] text-[#4e4e4e] font-[600]'>Power Up Your Business with Abjontech Solutions Limited</p>
+        <p className='text-[14px] font-[500] text-['>At Abjontech, we don’t just supply systems — we deliver complete solutions. <br />
+Whether you're looking to boost productivity, strengthen security, or streamline operations, <br /> we’ve got you covered. Our offerings include:</p>
+      </div>
+      <div className='grid grid-cols-1 px-5 md:px-0 md:grid-cols-3 gap-5'>
+        {
+          services.map((service) => {
+            return (
+              <div style={{boxShadow: "rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px"}} key={service.id} className='p-5 space-y-3'>
+                <img className='h-[250px] object-cover' src={service.img} alt="" />
+                <p className='text-[16px] font-[600] capitalize'>{service.name}</p>
+              </div>
+            )
+          })
+        }
+      </div>
+    </div>
+  )
+}
+
+export default Services
