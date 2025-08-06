@@ -85,3 +85,31 @@ export const services = [
     img: "https://www.handyrecovery.com/wp-content/uploads/2021/01/best-data-recovery-software-950x500.jpg"
   }
 ]
+
+export const faqs = [
+  {
+    id: 1,
+    question: "What kind of engineering solutions does Abjontech provide?",
+    ans: "We offer a wide range of engineering solutions including CAD software licensing (like AutoDesk and SolidWorks), technical support, and system setups for engineering firms. Whether you're into mechanical, civil, or electrical engineering, we help you optimize your workflow with the right tools and systems."
+  },
+  {
+    id: 2,
+    question: "Can Abjontech help with setting up ERP systems for small businesses?",
+    ans: "Absolutely! We deploy and manage ERP (Enterprise Resource Planning) systems tailored to your business size and needs. Whether you're a startup or a growing company, our ERP solutions help you automate processes, track resources, and make smarter decisions."
+  },
+  {
+    id: 3,
+    question: "Do you only sell software, or do you offer after-sales support too?",
+    ans: "We don’t just sell software – we provide full support. From installation, activation, and training to troubleshooting and updates, our team ensures you're fully equipped and never left stranded."
+  },
+  {
+    id: 4,
+    question: "What kind of data protection services do you offer?",
+    ans: "We help secure your systems and data through antivirus installations, firewall setup, encrypted backups, and proactive monitoring. Whether you're concerned about ransomware, data loss, or breaches, we have the right tools and expertise to keep your business safe."
+  },
+  {
+    id: 5,
+    question: "Can you recover lost or corrupted data from my computer or server?",
+    ans: "Yes, we offer professional data recovery services. Whether it's accidental deletion, hardware failure, or virus damage, we use advanced tools to retrieve your critical files and get you back on track quickly."
+  },
+]

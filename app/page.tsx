@@ -4,6 +4,7 @@ import Partners from './components/home/Partners'
 import Partner from './components/home/Partner'
 import Banner from './components/home/Banner'
 import Services from './components/home/Services'
+import FAQ from './components/home/FAQ'
 
 const page = () => {
   return (
@@ -13,6 +14,7 @@ const page = () => {
       <Services />
       <Partner />
       <Banner />
+      <FAQ />
     </div>
   )
 }
