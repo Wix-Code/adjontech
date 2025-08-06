@@ -14,7 +14,7 @@ const FAQ = () => {
   return (
     <div className="py-5 px-4">
       <div className="max-w-[900px] mx-auto">
-        <p className="md:text-2xl text-[20px] font-semibold mb-6">Frequently Asked Questions (FAQ)</p>
+        <p className="md:text-2xl text-[20px] font-semibold text-[#000000] mb-6">Frequently Asked Questions (FAQ)</p>
         <div className="space-y-5">
           {faqs.map((faq, index) => (
             <div
