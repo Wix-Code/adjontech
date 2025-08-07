@@ -72,12 +72,14 @@ export const services = [
   {
     id: 5,
     name: "Enterprise Resource Planning",
-    img: "https://www.consultancy.uk/illustrations/news/spotlight/2024-05-27-122130224-Key_considerations_when_selecting_an_ERP_package_spot.jpg"
+    img: "https://www.consultancy.uk/illustrations/news/spotlight/2024-05-27-122130224-Key_considerations_when_selecting_an_ERP_package_spot.jpg",
+    note: "Enterprise Resource Planning (ERP) software is at the heart of efficient, data-driven organizations. We help businesses of all sizes implement and optimize ERP systems that centralize operations, improve visibility, and enhance decision-making."
   },
   {
     id: 6,
     name: "Data Recovery",
-    img: "https://www.handyrecovery.com/wp-content/uploads/2021/01/best-data-recovery-software-950x500.jpg"
+    img: "https://www.handyrecovery.com/wp-content/uploads/2021/01/best-data-recovery-software-950x500.jpg",
+    note: "Data loss can be devastating, but it doesn’t have to be permanent. Our professional data recovery services can restore lost, deleted, or corrupted data from all types of storage media."
   },
   {
     id: 7,

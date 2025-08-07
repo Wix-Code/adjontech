@@ -28,7 +28,7 @@ const FAQ = () => {
               >
                 <p className="font-medium text-[#000000]">{faq.question}</p>
                 <ChevronDown
-                  className={`transition-transform text-[#4e4e4e] w-[16px] duration-300 ${
+                  className={`transition-transform text-[#4e4e4e] w-[20px] duration-300 ${
                     activeIndex === index ? 'rotate-180' : ''
                   }`}
                 />

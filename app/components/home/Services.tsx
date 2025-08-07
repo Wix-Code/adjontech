@@ -17,8 +17,8 @@ Whether you're looking to boost productivity, strengthen security, or streamline
           services.slice(0, 6).map((service) => {
             return (
               <div style={{boxShadow: "rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px"}} key={service.id} className='p-5 space-y-3'>
-                <img className='h-[250px] object-cover' src={service.img} alt="" />
-                <p className='text-[16px] font-[600] capitalize'>{service.name}</p>
+                <Link href={`/services/${service.id}`}><img className='h-[250px] object-cover' src={service.img} alt="" /></Link>
+                <Link className='pt-3' href={`/services/${service.id}`}><p className='text-[16px] font-[600] capitalize'>{service.name}</p></Link>
               </div>
             )
           })
