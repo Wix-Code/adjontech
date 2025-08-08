@@ -54,42 +54,180 @@ export const services = [
     name: " Educational Software & e-Learning Solutions",
     img: "https://edusuitepk.b-cdn.net/wp-content/uploads/2022/01/What-is-Importance-of-Educational-Software.jpg",
     note: "Education has gone digital — and we help schools, colleges, and training institutes adapt with powerful digital tools. From interactive learning to administrative automation, we provide everything to modernize your classroom.",
-    idealfor: "Primary/secondary schools, higher institutions, private tutors, and online educators."
+    idealfor: "Primary/secondary schools, higher institutions, private tutors, and online educators.",
+    matters: "Better learning tools = better student performance. Plus, automated systems reduce manual work for teachers and admins.",
+    weOffer: [
+      {
+        id: 1,
+        name: "Original licenses for Solidworks, AutoDesk (AutoCAD, Revit, etc.)"
+      },
+      {
+        id: 2,
+        name: "Installation and setup across multiple devices"
+      },
+      {
+        id: 3,
+        name: "Training and onboarding for teams"
+      },
+      {
+        id: 4,
+        name: "Ongoing technical support"
+      },
+      {
+        id: 5,
+        name: "Ongoing technical support"
+      },
+    ]
   },
   {
     id: 2,
     name: " network and data protection",
     img: "https://www.easy2patch.com/assets/images/blog/what-are-the-various-types-of-network-security.png",
     note: "We design, install, and maintain networks for offices, schools, and organizations — ensuring fast connections and secure data handling.",
-    idealfor: "Offices, hotels, schools, warehouses, retail outlets, and any business using internet-connected systems."
+    idealfor: "Offices, hotels, schools, warehouses, retail outlets, and any business using internet-connected systems.",
+    matters: "Insecure or unreliable networks cause downtime, breaches, and frustration. A solid network saves money and protects your business.",
+    weOffer: [
+      {
+        id: 1,
+        name: "Original licenses for Solidworks, AutoDesk (AutoCAD, Revit, etc.)"
+      },
+      {
+        id: 2,
+        name: "Installation and setup across multiple devices"
+      },
+      {
+        id: 3,
+        name: "Training and onboarding for teams"
+      },
+      {
+        id: 4,
+        name: "Ongoing technical support"
+      },
+      {
+        id: 5,
+        name: "Ongoing technical support"
+      },
+    ]
   },
   {
     id: 3,
     name: "Software Licensing & Productivity Tools",
     img: "https://www.handyrecovery.com/wp-content/uploads/2021/01/best-data-recovery-software-950x500.jpg",
     note: "From daily work apps to creative suites, we supply licensed, secure, and fully supported software — not pirated copies that can damage your systems or cause legal trouble.",
-    idealFor: "Businesses of all sizes, schools, designers, engineers, marketers, and content creators."
+    idealFor: "Businesses of all sizes, schools, designers, engineers, marketers, and content creators.",
+    matters: "Genuine software ensures security, access to updates, and compliance with the law. It also works better and lasts longer.",
+    weOffer: [
+      {
+        id: 1,
+        name: "Original licenses for Solidworks, AutoDesk (AutoCAD, Revit, etc.)"
+      },
+      {
+        id: 2,
+        name: "Installation and setup across multiple devices"
+      },
+      {
+        id: 3,
+        name: "Training and onboarding for teams"
+      },
+      {
+        id: 4,
+        name: "Ongoing technical support"
+      },
+      {
+        id: 5,
+        name: "Ongoing technical support"
+      },
+    ]
   },
   {
     id: 4,
-    name: "engineering solutions",
+    name: "engineering software solutions",
     img: "https://drmcnatty.com/wp-content/uploads/2015/04/Engineering-Solutions.jpg",
     note: "Engineering and design teams rely on specialized tools like Solidworks, AutoDesk, MATLAB, and more for product design, simulation, and testing. These tools help engineers bring ideas to life, whether it's a simple mechanical part or a complex system design.",
-    idealFor: "Engineering firms, construction companies, manufacturing teams, and students in STEM disciplines."
+    idealFor: "Engineering firms, construction companies, manufacturing teams, and students in STEM disciplines.",
+    matters: "Modern engineering requires precision, collaboration, and digital tools that save time and reduce errors. Using the right software boosts productivity and ensures accurate modeling and prototyping.",
+    weOffer: [
+      {
+        id: 1,
+        name: "Original licenses for Solidworks, AutoDesk (AutoCAD, Revit, etc.)"
+      },
+      {
+        id: 2,
+        name: "Installation and setup across multiple devices"
+      },
+      {
+        id: 3,
+        name: "Training and onboarding for teams"
+      },
+      {
+        id: 4,
+        name: "Ongoing technical support"
+      },
+      {
+        id: 5,
+        name: "Ongoing technical support"
+      },
+    ]
   },
   {
     id: 5,
     name: "ERP (Enterprise Resource Planning) Systems",
     img: "https://www.consultancy.uk/illustrations/news/spotlight/2024-05-27-122130224-Key_considerations_when_selecting_an_ERP_package_spot.jpg",
     note: "Enterprise Resource Planning (ERP) software is at the heart of efficient, data-driven organizations. We help businesses of all sizes implement and optimize ERP systems that centralize operations, improve visibility, and enhance decision-making.",
-    idealFor: "Retail chains, manufacturing firms, SMEs, wholesalers, service providers, schools, and hospitals."
+    idealFor: "Retail chains, manufacturing firms, SMEs, wholesalers, service providers, schools, and hospitals.",
+    matters: "Manual processes are time-consuming and error-prone. With ERP, you get automation, real-time insights, and improved productivity across departments.",
+    weOffer: [
+      {
+        id: 1,
+        name: "Original licenses for Solidworks, AutoDesk (AutoCAD, Revit, etc.)"
+      },
+      {
+        id: 2,
+        name: "Installation and setup across multiple devices"
+      },
+      {
+        id: 3,
+        name: "Training and onboarding for teams"
+      },
+      {
+        id: 4,
+        name: "Ongoing technical support"
+      },
+      {
+        id: 5,
+        name: "Ongoing technical support"
+      },
+    ]
   },
   {
     id: 6,
     name: "Data Recovery",
     img: "https://www.handyrecovery.com/wp-content/uploads/2021/01/best-data-recovery-software-950x500.jpg",
     note: "Data loss can be devastating, but it doesn’t have to be permanent. Our professional data recovery services can restore lost, deleted, or corrupted data from all types of storage media.",
-    idealfor: "Businesses, students, photographers, schools, and anyone who’s lost important data."
+    idealfor: "Businesses, students, photographers, schools, and anyone who’s lost important data.",
+    matters: "Your data is your business. Losing files can mean lost money, lost time, or legal issues. That’s why secure and professional recovery is key.",
+    weOffer: [
+      {
+        id: 1,
+        name: "Original licenses for Solidworks, AutoDesk (AutoCAD, Revit, etc.)"
+      },
+      {
+        id: 2,
+        name: "Installation and setup across multiple devices"
+      },
+      {
+        id: 3,
+        name: "Training and onboarding for teams"
+      },
+      {
+        id: 4,
+        name: "Ongoing technical support"
+      },
+      {
+        id: 5,
+        name: "Ongoing technical support"
+      },
+    ]
   },
 ]
 
