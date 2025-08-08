@@ -9,6 +9,7 @@ type Service = {
   name: string
   img: string
   note?: string
+  idealFor?: string
 }
 
 const Page = () => {
@@ -35,6 +36,10 @@ const Page = () => {
       <img src={service.img} alt={service.name} className="h-[300px] object-cover" />
       <h1 className="text-2xl font-bold capitalize">{service.name}</h1>
       <p className="text-[14px] text-[#4e4e4e]">{service?.note || 'No description available.'}</p>
+      <div className='space-x-2 flex items-center'>
+        <p className='text-[14px] text-black font-[600]'>Ideal For:</p>
+        <p className='text-[14px] text-[#4e4e4e]'>{service.idealFor}</p>
+      </div>
     </div>
   )
 }
