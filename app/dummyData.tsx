@@ -51,23 +51,27 @@ export const links = [
 export const services = [
   {
     id: 1,
-    name: "educational software",
-    img: "https://edusuitepk.b-cdn.net/wp-content/uploads/2022/01/What-is-Importance-of-Educational-Software.jpg"
+    name: " Educational Software & e-Learning Solutions",
+    img: "https://edusuitepk.b-cdn.net/wp-content/uploads/2022/01/What-is-Importance-of-Educational-Software.jpg",
+    note: "Education has gone digital — and we help schools, colleges, and training institutes adapt with powerful digital tools. From interactive learning to administrative automation, we provide everything to modernize your classroom."
   },
   {
     id: 2,
     name: " network and data protection",
-    img: "https://www.easy2patch.com/assets/images/blog/what-are-the-various-types-of-network-security.png"
+    img: "https://www.easy2patch.com/assets/images/blog/what-are-the-various-types-of-network-security.png",
+    note: "We design, install, and maintain networks for offices, schools, and organizations — ensuring fast connections and secure data handling."
   },
   {
     id: 3,
-    name: "Data Recovery",
-    img: "https://www.handyrecovery.com/wp-content/uploads/2021/01/best-data-recovery-software-950x500.jpg"
+    name: "Software Licensing & Productivity Tools",
+    img: "https://www.handyrecovery.com/wp-content/uploads/2021/01/best-data-recovery-software-950x500.jpg",
+    note: "From daily work apps to creative suites, we supply licensed, secure, and fully supported software — not pirated copies that can damage your systems or cause legal trouble."
   },
   {
     id: 4,
     name: "engineering solutions",
-    img: "https://drmcnatty.com/wp-content/uploads/2015/04/Engineering-Solutions.jpg"
+    img: "https://drmcnatty.com/wp-content/uploads/2015/04/Engineering-Solutions.jpg",
+    note: "Engineering and design teams rely on specialized tools like Solidworks, AutoDesk, MATLAB, and more for product design, simulation, and testing. These tools help engineers bring ideas to life, whether it's a simple mechanical part or a complex system design."
   },
   {
     id: 5,
@@ -81,11 +85,6 @@ export const services = [
     img: "https://www.handyrecovery.com/wp-content/uploads/2021/01/best-data-recovery-software-950x500.jpg",
     note: "Data loss can be devastating, but it doesn’t have to be permanent. Our professional data recovery services can restore lost, deleted, or corrupted data from all types of storage media."
   },
-  {
-    id: 7,
-    name: "Data Recovery",
-    img: "https://www.handyrecovery.com/wp-content/uploads/2021/01/best-data-recovery-software-950x500.jpg"
-  }
 ]
 
 export const faqs = [

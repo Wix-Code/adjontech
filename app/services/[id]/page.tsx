@@ -31,10 +31,10 @@ const Page = () => {
   if (!service) return <div>Loading or service not found...</div>
 
   return (
-    <div className="p-5 space-y-4">
+    <div className="p-5 max-w-[1000px] m-auto space-y-4">
       <img src={service.img} alt={service.name} className="h-[300px] object-cover" />
       <h1 className="text-2xl font-bold capitalize">{service.name}</h1>
-      <p className="text-lg">{service?.note || 'No description available.'}</p>
+      <p className="text-[14px] text-[#4e4e4e]">{service?.note || 'No description available.'}</p>
     </div>
   )
 }
