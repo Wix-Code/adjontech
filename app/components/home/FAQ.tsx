@@ -15,7 +15,7 @@ const FAQ = () => {
 
   useEffect(() => {
     AOS.init({
-      duration: 800, // animation duration
+      duration: 500, // animation duration
       easing: 'ease-in-out', // easing option
       once: true, // whether animation should happen only once
     })

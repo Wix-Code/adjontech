@@ -40,7 +40,7 @@ const NavBar = () => {
 
         {/* Toggle Button */}
         <button onClick={() => setNavbar(!navbar)} className="md:hidden flex">
-          { navbar ? <X className="w-[20px]" /> : <AlignJustify className="w-[20px]" /> }
+          { navbar ? <X className="w-[22px]" /> : <AlignJustify className="w-[22px]" /> }
         </button>
       </div>
 

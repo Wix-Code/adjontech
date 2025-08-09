@@ -22,7 +22,7 @@ const ContactPage = () => {
         {/* Contact Info */}
         <div className="flex-1 text-center flex flex-col items-center space-y-3">
           <div data-aos="fade-up"
-            data-aos-delay="800" className="w-full">
+            data-aos-delay="500" className="w-full">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8133662.920782439!2d-2.1862792968749947!3d5.490236007479131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104259b03565895d%3A0x942027305c2068cb!2sAbjontech%20Solutions%20Limited!5e0!3m2!1sen!2sng!4v1754730137131!5m2!1sen!2sng"
               className="w-full h-[400px]"
@@ -34,15 +34,15 @@ const ContactPage = () => {
           </div>
 
           <MapPin data-aos="fade-up"
-            data-aos-delay="800" className="text-[#ff0022]" />
+            data-aos-delay="500" className="text-[#ff0022]" />
           <p data-aos="fade-up"
-            data-aos-delay="800" className="text-[#4e4e4e] text-[16px] font-semibold">Abjontech Solutions Limited</p>
+            data-aos-delay="500" className="text-[#4e4e4e] text-[16px] font-semibold">Abjontech Solutions Limited</p>
           <p data-aos="fade-up"
-            data-aos-delay="800" className="text-[14px] font-normal">
+            data-aos-delay="500" className="text-[14px] font-normal">
             Plot 49, MCC Road, Ikenegbu Layout, Owerri, Imo State, Nigeria
           </p>
           <div data-aos="fade-up"
-            data-aos-delay="800" className='flex items-center gap-5'>
+            data-aos-delay="500" className='flex items-center gap-5'>
             <a
               href="https://+2348035302307"
               target="_blank"
@@ -51,7 +51,7 @@ const ContactPage = () => {
             >
               <FaPhone className='text-[#FFFFFF] text-[22px]' />
             </a>
-            <a href="https://linkedin.com"
+            <a href="https://web.facebook.com/profile.php?id=100083553543663"
               target="_blank"
               rel="noopener noreferrer"
               className="w-[40px] h-[40px] rounded-[8px] bg-blue-500 flex items-center justify-center text-white hover:bg-blue-600 transition">
@@ -77,7 +77,7 @@ const ContactPage = () => {
         {/* Contact Form */}
         <div className="flex-1 space-y-5">
           <div data-aos="fade-up"
-            data-aos-delay="800">
+            data-aos-delay="500">
             <label htmlFor="name" className="text-[14px] text-[#4e4e4e] font-medium block mb-1">
               Full Name
             </label>
@@ -90,7 +90,7 @@ const ContactPage = () => {
           </div>
 
           <div data-aos="fade-up"
-            data-aos-delay="800">
+            data-aos-delay="500">
             <label htmlFor="email" className="text-[14px] text-[#4e4e4e] font-medium block mb-1">
               Email
             </label>
@@ -103,7 +103,7 @@ const ContactPage = () => {
           </div>
 
           <div data-aos="fade-up"
-            data-aos-delay="800">
+            data-aos-delay="500">
             <label htmlFor="subject" className="text-[14px] text-[#4e4e4e] font-medium block mb-1">
               Subject
             </label>
@@ -116,7 +116,7 @@ const ContactPage = () => {
           </div>
 
           <div data-aos="fade-up"
-            data-aos-delay="800">
+            data-aos-delay="500">
             <label htmlFor="message" className="text-[14px] text-[#4e4e4e] font-medium block mb-1">
               Message
             </label>
@@ -128,7 +128,7 @@ const ContactPage = () => {
           </div>
           <button
             data-aos="fade-up"
-            data-aos-delay="800"
+            data-aos-delay="500"
             className="inline-block cursor-pointer bg-black text-white px-6 py-3 font-medium hover:bg-[#333] transition"
           >
             Send Message
