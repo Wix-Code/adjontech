@@ -59,23 +59,23 @@ export const services = [
     weOffer: [
       {
         id: 1,
-        name: "Original licenses for Solidworks, AutoDesk (AutoCAD, Revit, etc.)"
+        name: "Microsoft 365 for Education (Teams, Word, Excel, etc.)"
       },
       {
         id: 2,
-        name: "Installation and setup across multiple devices"
+        name: "Adobe Creative Cloud for students and educators"
       },
       {
         id: 3,
-        name: "Training and onboarding for teams"
+        name: "Interactive whiteboard and classroom tools"
       },
       {
         id: 4,
-        name: "Ongoing technical support"
+        name: "Virtual classroom setup and LMS integration"
       },
       {
         id: 5,
-        name: "Ongoing technical support"
+        name: "Teacher training and student support"
       },
     ]
   },
@@ -89,23 +89,23 @@ export const services = [
     weOffer: [
       {
         id: 1,
-        name: "Original licenses for Solidworks, AutoDesk (AutoCAD, Revit, etc.)"
+        name: "LAN/Wi-Fi installation and configuration"
       },
       {
         id: 2,
-        name: "Installation and setup across multiple devices"
+        name: "Firewall and anti-virus systems"
       },
       {
         id: 3,
-        name: "Training and onboarding for teams"
+        name: "VPN and remote access solutions"
       },
       {
         id: 4,
-        name: "Ongoing technical support"
+        name: "Backup and disaster recovery planning"
       },
       {
         id: 5,
-        name: "Ongoing technical support"
+        name: "Data encryption and access control"
       },
     ]
   },
@@ -119,23 +119,27 @@ export const services = [
     weOffer: [
       {
         id: 1,
-        name: "Original licenses for Solidworks, AutoDesk (AutoCAD, Revit, etc.)"
+        name: "Microsoft Office (Word, Excel, PowerPoint, Outlook)"
       },
       {
         id: 2,
-        name: "Installation and setup across multiple devices"
+        name: "Adobe Creative Cloud (Photoshop, Premiere Pro, Illustrator, etc.)"
       },
       {
         id: 3,
-        name: "Training and onboarding for teams"
+        name: "AutoDesk software"
       },
       {
         id: 4,
-        name: "Ongoing technical support"
+        name: "CorelDRAW"
       },
       {
         id: 5,
-        name: "Ongoing technical support"
+        name: "Antivirus and endpoint protection"
+      },
+      {
+        id: 6,
+        name: "Windows OS (Pro, Enterprise)"
       },
     ]
   },
@@ -179,23 +183,23 @@ export const services = [
     weOffer: [
       {
         id: 1,
-        name: "Original licenses for Solidworks, AutoDesk (AutoCAD, Revit, etc.)"
+        name: "Custom ERP development tailored to your business"
       },
       {
         id: 2,
-        name: "Installation and setup across multiple devices"
+        name: "Setup and configuration of existing ERP platforms"
       },
       {
         id: 3,
-        name: "Training and onboarding for teams"
+        name: "Modules for inventory, sales, HR, procurement, finance, and more"
       },
       {
         id: 4,
-        name: "Ongoing technical support"
+        name: "Staff training and process automation consulting"
       },
       {
         id: 5,
-        name: "Ongoing technical support"
+        name: "Support and maintenance"
       },
     ]
   },
@@ -209,23 +213,23 @@ export const services = [
     weOffer: [
       {
         id: 1,
-        name: "Original licenses for Solidworks, AutoDesk (AutoCAD, Revit, etc.)"
+        name: "Hard drive, SSD, flash drive, and memory card recovery"
       },
       {
         id: 2,
-        name: "Installation and setup across multiple devices"
+        name: "Secure recovery processes that maintain privacy"
       },
       {
         id: 3,
-        name: "Training and onboarding for teams"
+        name: "Fast turnaround times"
       },
       {
         id: 4,
-        name: "Ongoing technical support"
+        name: "File restoration to the original format"
       },
       {
         id: 5,
-        name: "Ongoing technical support"
+        name: "Secure recovery processes that maintain privacy"
       },
     ]
   },
