@@ -2,7 +2,9 @@
 
 import { faqs } from '@/app/dummyData';
 import { ChevronDown } from 'lucide-react';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import AOS from "aos"
+import 'aos/dist/aos.css'
 
 const FAQ = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
@@ -11,14 +13,24 @@ const FAQ = () => {
     setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
   };
 
+  useEffect(() => {
+    AOS.init({
+      duration: 800, // animation duration
+      easing: 'ease-in-out', // easing option
+      once: true, // whether animation should happen only once
+    })
+  }, [])
+
   return (
     <div className="py-5 px-4">
       <div className="max-w-[900px] mx-auto">
-        <p className="md:text-2xl text-[20px] font-semibold text-[#000000] mb-6">Frequently Asked Questions (FAQ)</p>
+        <p data-aos="fade-up" className="md:text-2xl text-[20px] font-semibold text-[#000000] mb-6">Frequently Asked Questions (FAQ)</p>
         <div className="space-y-5">
           {faqs.map((faq, index) => (
             <div
               key={index}
+              data-aos="fade-up"
+              data-aos-delay={index * 100}
               style={{boxShadow: "rgba(0, 0, 0, 0.05) 0px 0px 0px 1px"}}
               className="px-5 py-4 rounded-md"
             >

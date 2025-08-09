@@ -3,6 +3,8 @@
 import { services } from '@/app/dummyData'
 import { useParams } from 'next/navigation'
 import { useEffect, useState } from 'react'
+import AOS from "aos"
+import 'aos/dist/aos.css'
 
 type WeOfferItem = {
   id: number
@@ -31,20 +33,28 @@ const Page = () => {
     setService(foundService || null)
   }, [id])
 
+   useEffect(() => {
+      AOS.init({
+        duration: 800, // animation duration
+        easing: 'ease-in-out', // easing option
+        once: true, // whether animation should happen only once
+      })
+   }, [])
+  
   if (!service) return <div>Loading or service not found...</div>
 
   return (
     <div className="p-5 max-w-[1000px] m-auto space-y-4">
-      <img src={service.img} alt={service.name} className="h-[300px] object-cover w-full" />
-      <h1 className="text-2xl font-bold capitalize">{service.name}</h1>
-      <p className="text-[14px] text-[#4e4e4e]">{service?.note || 'No description available.'}</p>
+      <img data-aos="fade-right" src={service.img} alt={service.name} className="h-[300px] object-cover w-full" />
+      <h1 data-aos="fade-right" className="text-2xl font-bold capitalize">{service.name}</h1>
+      <p data-aos="fade-right" className="text-[14px] text-[#4e4e4e]">{service?.note || 'No description available.'}</p>
 
-      <div className="space-y-2 flex flex-col">
+      <div data-aos="fade-right" className="space-y-2 flex flex-col">
         <p className="text-[14px] text-black capitalize font-[600]">Why it matters:</p>
         <p className="text-[14px] text-[#4e4e4e]">{service.matters}</p>
       </div>
 
-      <div className="space-y-2 flex flex-col">
+      <div data-aos="fade-right" className="space-y-2 flex flex-col">
         <p className="text-[14px] text-black capitalize font-[600]">What we offer:</p>
         <ul className="list-disc list-inside text-[#4e4e4e] text-[14px] space-y-1">
           {service.weOffer?.map((item) => (
@@ -53,7 +63,7 @@ const Page = () => {
         </ul>
       </div>
 
-      <div className="space-y-2 flex flex-col">
+      <div data-aos="fade-right" className="space-y-2 flex flex-col">
         <p className="text-[14px] text-black font-[600]">Ideal For:</p>
         <p className="text-[14px] text-[#4e4e4e]">{service.idealFor || service.idealfor}</p>
       </div>
