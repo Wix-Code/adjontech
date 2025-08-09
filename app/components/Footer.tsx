@@ -5,8 +5,8 @@ import { links } from "../dummyData";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#000000] text-white py-12 px-10">
-      <div className="max-w-[1000px] mx-auto flex-col flex md:flex-row justify-between gap-10">
+    <footer className="bg-[#000000] text-white py-12">
+      <div className="md:max-w-[1000px] px-5 mx-auto flex-col flex md:flex-row justify-between gap-10">
         {/* Logo & Name */}
         <div className="flex flex-1 flex-col items-center md:items-start gap-3">
           <Link href="/" className="flex items-center gap-2">
