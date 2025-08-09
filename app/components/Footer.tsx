@@ -84,7 +84,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <div className="border-t border-gray-700 mt-10 pt-4 text-center text-gray-400 text-sm">
+      <div className="border-t border-gray-700 mt-10 pt-4 px-10 text-[10px] text-center text-gray-400 md:text-sm">
         © {new Date().getFullYear()} AbjonTech Solutions Limited. All rights reserved.
       </div>
     </footer>
