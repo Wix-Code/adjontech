@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const HeroPage = () => {
@@ -17,14 +18,14 @@ const HeroPage = () => {
         </p>
 
         <p className="text-[#d2e3f5] text-[16px] sm:text-[18px] font-medium leading-relaxed">
-          TechSolutions is effective, reliable, and easy to work with. <br className="hidden sm:block" />
+          Abjontech Solutions Limited is effective, reliable, and easy to work with. <br className="hidden sm:block" />
           Schedule a free consultation and we’ll show you why we were <br className="hidden sm:block" />
-          named one of the top IT firms in North America.
+          named one of the top IT firms in Nigeria.
         </p>
 
-        <button className="bg-white text-black font-semibold px-6 py-3 rounded-md w-fit hover:bg-gray-100 transition">
+        <Link href="/contact-us" className="bg-white text-black font-semibold px-6 py-3 rounded-md w-fit hover:bg-gray-100 transition">
           Contact Us
-        </button>
+        </Link>
       </div>
     </div>
   );

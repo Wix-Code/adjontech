@@ -28,7 +28,7 @@ const Partners = () => {
 
         <div className="flex-1">
           <p data-aos="fade-up" className="text-[18px] text-center text-[#4e4e4e] font-semibold mb-4">
-            TechSolutions collaborates with hardware and software leaders to provide enterprise-class solutions for small and mid-sized businesses
+            Abjontech Solutions Limited collaborates with hardware and software leaders to provide enterprise-class solutions for small and mid-sized businesses
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             {logos.map((logo, index) => (

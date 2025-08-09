@@ -22,7 +22,7 @@ const Banner = () => {
           Optimized IT solutions supercharge your productivity and growth, and our services make it easy to take full advantage
         </p>
         <p  data-aos="fade-up" data-aos-delay="800" className="text-[14px] md:text-[16px] text-[#575757] leading-relaxed">
-          Contact TechSolutions for a FREE consultation and we’ll show you what award-winning Managed IT Services can do for your business
+          Contact Abjontech Solutions Limited for a FREE consultation and we’ll show you what award-winning Managed IT Services can do for your business
         </p>
         <Link
           data-aos="fade-up"
