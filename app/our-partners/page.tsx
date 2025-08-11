@@ -29,12 +29,9 @@ const Page = () => {
       </div>
 
       <div className='max-w-[1000px] space-y-5 m-auto'>
-        <div className='space-y-2 flex px-5 md:px-0 flex-col items-center justify-center text-center'>
-          <p data-aos="fade-up" className='text-[18px] text-[#4e4e4e] font-[600]'>Power Up Your Business with Abjontech Solutions Limited</p>
-          <p data-aos="fade-up" className='text-[14px] font-[500]'>At Abjontech, we don’t just supply systems — we deliver complete solutions. <br />
-            Whether you're looking to boost productivity, strengthen security, or streamline operations, <br /> we’ve got you covered. Our offerings <span className='font-[600]'>include:</span>
-          </p>
-        </div>
+        <p data-aos="fade-up" className="text-[18px] text-center text-[#4e4e4e] font-semibold mb-4">
+          Abjontech Solutions Limited collaborates with hardware and software leaders to provide enterprise-class solutions for small and mid-sized businesses
+        </p>
 
         <div className='grid grid-cols-1 px-5 md:px-0 md:grid-cols-4 gap-5'>
           {logos.map((logo, index) => (
@@ -43,7 +40,7 @@ const Page = () => {
               data-aos="fade-up"
               data-aos-delay={index * 100} // stagger animation
               style={{ boxShadow: "rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px" }}
-              className='p-5 space-y-3'
+              className='p-5 flex justify-center items-center space-y-3'
             >
               <img src={logo.pic} alt="" />
             </div>

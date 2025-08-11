@@ -1,7 +1,7 @@
 export const logos = [
   {
     id: 1,
-    pic: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Adobe-logo.svg/2560px-Adobe-logo.svg.png"
+    pic: "https://logos-world.net/wp-content/uploads/2020/06/Adobe-Logo-2020-present.png"
   },
   {
     id: 2,
@@ -23,6 +23,62 @@ export const logos = [
     id: 6,
     pic: "https://www.techsolutionsinc.com/wp-content/uploads/2021/11/partner-microsoft.jpg"
   },
+  {
+    id: 7,
+    pic: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDChjm1uXSN8TcvIw8GwHxI8HSJIpU8dbkUQ&s"
+  },
+  {
+    id: 8,
+    pic: "https://5.imimg.com/data5/SELLER/Default/2024/7/439219899/YL/WG/WC/42959848/odoo-erp-software.png"
+  },
+  {
+    id: 9,
+    pic: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9YMqDuRL43mD-RsFL1dL2lDVpnLBVsQMCvQ&s"
+  },
+  {
+    id: 10,
+    pic: "https://5.imimg.com/data5/SELLER/Default/2024/7/439219899/YL/WG/WC/42959848/odoo-erp-software.png"
+  },
+  {
+    id: 11,
+    pic: "https://i.ytimg.com/vi/gvyC1DYPmkY/mqdefault.jpg"
+  },
+  {
+    id: 12,
+    pic: "https://www.stephenwagner.com/wp-content/uploads/2020/07/DUO.png"
+  },
+  {
+    id: 13,
+    pic: "https://images.seeklogo.com/logo-png/34/2/veeam-logo-png_seeklogo-345861.png"
+  },
+  {
+    id: 14,
+    pic: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Trend_Micro_logo.svg/1200px-Trend_Micro_logo.svg.png"
+  },
+  {
+    id: 15,
+    pic: "https://download.logo.wine/logo/Fortinet/Fortinet-Logo.wine.png"
+  },
+  {
+    id: 16,
+    pic: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZr6BzJ5WxObkKuLY2t0JHHVhQI2h2WCWGOg&s"
+  },
+  {
+    id: 17,
+    pic: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHDOJ0ZqoGreDN7D-J3xY_Nqnf6e1lmfZYrg&s"
+  },
+  {
+    id: 18,
+    pic: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFHOk8lAGBi09sIPAdtRwjjfvpMF0c4Yzfcg&s"
+  },
+  {
+    id: 19,
+    pic: "https://cdn.freebiesupply.com/images/large/2x/hewlett-packard-logo-black-and-white.png"
+  },
+  {
+    id: 20,
+    pic: "https://logos-world.net/wp-content/uploads/2024/07/Sophos-Logo.jpg"
+  }
 ]
 
 export const links = [
