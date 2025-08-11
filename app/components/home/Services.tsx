@@ -20,8 +20,8 @@ const Services = () => {
     <div className='max-w-[1000px] my-5 space-y-5 m-auto'>
       <div data-aos="fade-up" className='space-y-2 flex px-5 md:px-0 flex-col items-center justify-center text-center'>
         <p data-aos="fade-up" className='md:text-[24px] text-[20px] text-center py-2 border-y-[1px] border-[#ececec] w-fit font-[600]'>Our Services</p>
-        <p data-aos="fade-up" className='text-[18px] text-[#4e4e4e] font-[600]'>Power Up Your Business with Abjontech Solutions Limited</p>
-        <p data-aos="fade-up" className='text-[14px] font-[500] text-['>At Abjontech, we don’t just supply systems — we deliver complete solutions. <br />
+        <p data-aos="fade-up" className='text-[20px] text-[#4e4e4e] font-[600]'>Power Up Your Business with Abjontech Solutions Limited</p>
+        <p data-aos="fade-up" className='text-[16px] font-[500] text-['>At Abjontech, we don’t just supply systems — we deliver complete solutions. <br />
 Whether you're looking to boost productivity, strengthen security, or streamline operations, <br /> we’ve got you covered. Our offerings <span className='font-[600]'>include:</span></p>
       </div>
       <div className='grid grid-cols-1 px-5 md:px-0 md:grid-cols-3 gap-5'>

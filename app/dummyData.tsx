@@ -38,11 +38,16 @@ export const links = [
   },
   {
     id: 3,
+    name: "Our Partners",
+    href: "/our-partners"
+  },
+  {
+    id: 4,
     name: "About Us",
     href: "/about-us"
   },
   {
-    id: 4,
+    id: 5,
     name: "Contact Us",
     href: "/contact-us"
   },
