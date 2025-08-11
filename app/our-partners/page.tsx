@@ -28,12 +28,12 @@ const Page = () => {
         <p className="text-[28px] md:text-[36px] py-2 border-y-[1px] border-[#ececec] w-fit font-semibold">Our Partners</p>
       </div>
 
-      <div className='max-w-[1000px] space-y-5 m-auto'>
+      <div className='md:max-w-[1000px] px-5 space-y-5 m-auto'>
         <p data-aos="fade-up" className="text-[18px] text-center text-[#4e4e4e] font-semibold mb-4">
           Abjontech Solutions Limited collaborates with hardware and software leaders to provide enterprise-class solutions for small and mid-sized businesses
         </p>
 
-        <div className='grid grid-cols-1 px-5 md:px-0 md:grid-cols-4 gap-5'>
+        <div className='grid grid-cols-2 md:px-0 md:grid-cols-4 gap-5'>
           {logos.map((logo, index) => (
             <div
               key={logo.id}
