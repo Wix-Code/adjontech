@@ -4,7 +4,7 @@ import { FaFacebookF, FaInstagram, FaPhone, FaWhatsapp } from 'react-icons/fa';
 
 const ContactPage = () => {
   return (
-    <div>
+    <div className='mb-20'>
       {/* Banner Section */}
       <div
         style={{

@@ -16,7 +16,7 @@ const Page = () => {
   }, [])
 
   return (
-    <div>
+    <div className='mb-20'>
       <div
         style={{
           backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Hero-Image-Engineering-Services%3Arad-3x2?ts=1748570118663&fit=constrain&dpr=off")`,

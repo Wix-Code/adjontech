@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>
+    <div className='mb-20'>
       <div
         style={{
           backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://dynamicmedia.accenture.com/is/image/accenture/Accenture-Hero-Image-Engineering-Services%3Arad-3x2?ts=1748570118663&fit=constrain&dpr=off")`,
@@ -16,7 +16,8 @@ const page = () => {
       <div className='md:max-w-[1000px] px-5 space-y-3 m-auto'>
         <p data-aos="fade-up"
             data-aos-delay="500" className="text-2xl font-bold capitalize">Power Up Your Business with Abjontech Solutions Limited!</p>
-        <p className="text-[14px] text-[#4e4e4e]">At Abjontech Solutions Limited, we believe technology should work for you — not the other way around.</p>
+        <p data-aos="fade-up"
+            data-aos-delay="500" className="text-[14px] text-[#4e4e4e]">At Abjontech Solutions Limited, we believe technology should work for you — not the other way around.</p>
         <p data-aos="fade-up"
           data-aos-delay="500" className="text-[14px] text-[#4e4e4e]">From world-class engineering solutions to cutting-edge educational software, secure networks, robust data protection, advanced ERP systems, and reliable data recovery — we don’t just sell products; we deliver complete solutions that transform the way you work.</p>
         <p data-aos="fade-up"
