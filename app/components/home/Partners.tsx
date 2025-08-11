@@ -16,7 +16,7 @@ const Partners = () => {
   }, [])
   return (
     <div className="py-2 bg-[#fcfcfc8f]">
-      <div className="max-w-[1000px] mx-auto flex flex-col md:flex-row items-center gap-5 px-4 md:px-5">
+      <div className="max-w-[1100px] mx-auto flex flex-col md:flex-row items-center gap-5 px-4 md:px-5">
         
         <div className="flex-1 w-full">
           <img data-aos="fade-up"
@@ -31,7 +31,7 @@ const Partners = () => {
             Abjontech Solutions Limited collaborates with hardware and software leaders to provide enterprise-class solutions for small and mid-sized businesses
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-            {logos.map((logo, index) => (
+            {logos.slice(0, 9).map((logo, index) => (
               <div key={logo.id} data-aos="fade-up"
             data-aos-delay={index * 100} className="flex justify-center">
                 <img className="w-[80px] sm:w-[100px]" src={logo.pic} alt="" />
